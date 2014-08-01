@@ -26,6 +26,6 @@ Unless otherwise specified, everything in this repository is covered by the foll
 
 Creative Commons Attribution 4.0 International Licence
 
-Build your First Robot by the Raspberry Pi Foundation is licensed under a Creative Commons Attribution 4.0 International Licence.
+Build your First Robot by [Brian Corteil](https://github.com/Corteil/RaspberryPiBot) and the Raspberry Pi Foundation is licensed under a Creative Commons Attribution 4.0 International Licence.
 
 Based on a work at https://github.com/raspberrypilearning/build-first-robot
