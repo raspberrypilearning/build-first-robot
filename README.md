@@ -10,6 +10,7 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 - Two wheels
 - A small caster
 - Cable ties
+- [Robot Chassis]()
 
 ### Software
 - Pibrella Python Library
