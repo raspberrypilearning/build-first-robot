@@ -2,6 +2,12 @@
 
 ## Step 1: Build the Robot Chassis
 
+1. Connect the wheels to their motor and gears by pushing the white rod into the centre of the wheel.
+1. Take two male to female jumper wires, and cut off the female end connectors.
+1. Ask an adult to strip and solder the exposed wires to the metal connectors underneath the motor, one on each side. 
+1. Repeat the above steps on the second wheel and motor.
+
+	![](wheel-wire.jpg)
 
 ## Step 2: Connect to your Raspberry Pi
 
