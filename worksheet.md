@@ -7,7 +7,10 @@
 1. Ask an adult to strip and solder the exposed wires to the metal connectors underneath the motor, one on each side. 
 1. Repeat the above steps on the second wheel and motor.
 
+
 	![](images/wheel-wire.jpg)
+
+1. 
 
 ## Step 2: Connect to your Raspberry Pi
 
