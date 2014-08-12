@@ -2,15 +2,19 @@
 
 ## Step 1: Build the Robot Chassis
 
+1. Lay out all the parts of your robot chassis. 
+
+	![](images/chassis-diagram.png)
+	
 1. Connect the wheels to their motor and gears by pushing the white rod into the centre of the wheel.
 1. Take two male to female jumper wires, and cut off the female end connectors.
 1. Ask an adult to strip and solder the exposed wires to the metal connectors underneath the motor, one on each side. 
 1. Repeat the above steps on the second wheel and motor.
 
-
 	![](images/wheel-wire.jpg)
 
-1. 
+1. Attach the wheel brackets to the wheel motors with some 2.5mm screws so that your wheels look like the above image.
+1. Using some screws attach your Raspberry Pi to the mount board with some screws. 
 
 ## Step 2: Connect to your Raspberry Pi
 
@@ -29,9 +33,9 @@ Now you are setup, you can write the code to make your bot move!
 
 	```python
 	pibrella.output.e.on()
-    pibrella.output.f.on()
-    time.sleep(2)
-    pibrella.output.e.off()
-    pibrella.output.f.off()
-    ```
-    
+    	pibrella.output.f.on()
+    	time.sleep(2)
+    	pibrella.output.e.off()
+    	pibrella.output.f.off()
+    	```
+1.     
