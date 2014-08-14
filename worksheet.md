@@ -14,8 +14,9 @@
 	![](images/wheel-wire.jpg)
 
 1. Attach the wheel brackets to the wheel motors with some M3 screws so that your wheels look like the above image.
-1. Sandwich the two wheels between the 
 1. Using some M2.5 screws attach your Raspberry Pi to the mount board. 
+1. Sandwich the two wheels between the top bracket that your Raspberry Pi sits on, with the smaller bottom bracket. Using cable ties on each of the four corners to hold them together.
+
 
 ## Step 2: Connect to your Raspberry Pi
 
