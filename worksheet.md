@@ -1,6 +1,15 @@
 # Build your First Robot
 
-## Step 1: Build the Robot Chassis
+
+## Step 1: Create your Robot Chassis
+Any roaming robot device needs a chassis to hold the motors and wheels in place and in this case to mount your Raspberry Pi onto. If you already have a chassis then you can skip this step and go onto the next one. 
+
+You may have access to a make space that has a laser cutter, or maybe your school has one which you can ask to adult to help you cut the chassis that we have used in this tutorial. 
+
+- Print this file to make a paper template
+- Use this file with a laser cutter
+
+## Step 2: Build the Robot Chassis
 
 1. Lay out all the parts of your robot chassis. 
 
@@ -18,14 +27,14 @@
 1. Sandwich the two wheels between the top bracket that your Raspberry Pi sits on, with the smaller bottom bracket. Using cable ties on each of the four corners to hold them together.
 
 
-## Step 2: Connect to your Raspberry Pi
+## Step 3: Connect to your Raspberry Pi
 
 1. Connect your Raspberry Pi to a monitor, keyboard and mouse before turning it on. Log in and then load the graphical user interface by typing `startx`.
 1. Open an `LXTerminal` window by double clicking the icon on the desktop.
 1. Type `sudo idle3 &` to load the Python 3 programming environment. 
 1. Once it has loaded open a new text editor file by clciking on **File** and **New Window**.
 
-## Step 3: Make your robot move
+## Step 4: Make your robot move
 
 Now you are setup, you can write the code to make your bot move! 
 
