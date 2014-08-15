@@ -9,7 +9,8 @@ You may have access to a make space that has a laser cutter, or maybe your schoo
 - Print this file to make a paper template
 - Use this file with a laser cutter
 
-## Step 2: Build the Robot Chassis
+## Step 2: Build our Robot Chassis
+Unless you have used our Robot chassis, build your chassis by following the manufacturers instructions and move onto Step 3.
 
 1. Lay out all the parts of your robot chassis. 
 
