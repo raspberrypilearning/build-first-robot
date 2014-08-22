@@ -24,11 +24,15 @@ Unless you have used our Robot chassis, build your chassis by following the manu
 	![](images/wheel-wire.jpg)
 
 1. Attach the wheel brackets to the wheel motors with some M3 screws so that your wheels look like the above image.
-1. Using some M2.5 screws attach your Raspberry Pi to the mount board. 
+1. Using some M2.5 screws attach your Raspberry Pi with it's micro SD or SD card already inserted to the mount board. 
 1. Sandwich the two wheels between the top bracket that your Raspberry Pi sits on, with the smaller bottom bracket. Using cable ties on each of the four corners to hold them together.
+1. Add a castor to the front of the Raspberry Pi mount board with some screws.
+1. Plug your Pibrella into the first 26 pins of your Raspberry Pi that has already been mounted on the chassis. 
+1. Finally connect the jumper cables soldered to the wheel motors to the Pibrella board. With the bot facing you, take the jumper wires from the left hand wheel motor and plug one into input **E** on the pibrella and the other next to it in the ground input. Repeat with the right hand wheel motor jumper wires, plugging one into input **F** and the other into the adjacent input on the ground bank. 
 
 
 ## Step 3: Connect to your Raspberry Pi
+Now that you have built your Raspberry Pi Robot, you will need to start up your Raspberry Pi in order to test that it works, and to write programs to make it move how you want it to.
 
 1. Connect your Raspberry Pi to a monitor, keyboard and mouse before turning it on. Log in and then load the graphical user interface by typing `startx`.
 1. Open an `LXTerminal` window by double clicking the icon on the desktop.
