@@ -50,10 +50,10 @@ Now you are setup, you can write the code to make your bot move!
 
 	```python
 	pibrella.output.e.on()
-    	pibrella.output.f.on()
-    	time.sleep(2)
-    	pibrella.output.e.off()
-    	pibrella.output.f.off()
+    pibrella.output.f.on()
+    time.sleep(2)
+    pibrella.output.e.off()
+    pibrella.output.f.off()
  ```
  
     	
