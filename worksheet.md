@@ -54,6 +54,7 @@ Now you are setup, you can write the code to make your bot move!
     	time.sleep(2)
     	pibrella.output.e.off()
     	pibrella.output.f.off()
+ ```
+ 
     	
-    	```
 1. Click on **File** and **Save**    
