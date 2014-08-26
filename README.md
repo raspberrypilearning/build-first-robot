@@ -13,7 +13,7 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 - [Robot Chassis]()
 
 ### Software
-- Pibrella Python Library
+- [Pibrella Python Library](http://pibrella.com/#setup)
 
 See more information on checking you have these packages installed, and how to install them, on the software installation page.
 
