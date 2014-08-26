@@ -36,8 +36,9 @@ Now that you have built your Raspberry Pi Robot, you will need to start up your 
 
 1. Connect your Raspberry Pi to a monitor, keyboard and mouse before turning it on. Log in and then load the graphical user interface by typing `startx`.
 1. Open an `LXTerminal` window by double clicking the icon on the desktop.
-1. Type `sudo idle3 &` to load the Python 3 programming environment. 
+1. Type `sudo idle &` to load the Python IDLE programming environment. 
 1. Once it has loaded open a new text editor file by clciking on **File** and **New Window**.
+1. Finally click on **File** and **Save As**, then name your python file **first-robot.py**.
 
 ## Step 4: Make your robot move
 
@@ -53,5 +54,6 @@ Now you are setup, you can write the code to make your bot move!
     	time.sleep(2)
     	pibrella.output.e.off()
     	pibrella.output.f.off()
+    	
     	```
-1.     
+1. Click on **File** and **Save**    
