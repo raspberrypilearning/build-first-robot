@@ -6,7 +6,7 @@ Want to get started with robotics but not sure how? Start here with our guide to
 As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
 
 ### Hardware
-- A Pibrella
+- [A Pibrella](http://www.pibrella.com)
 - Two wheels
 - A small caster
 - Cable ties
