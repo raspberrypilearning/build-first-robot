@@ -30,6 +30,7 @@ Unless you have used our Robot chassis, build your chassis by following the manu
 1. Add a castor to the front of the Raspberry Pi mount board with some screws.
 1. Plug your Pibrella into the first 26 pins of your Raspberry Pi that has already been mounted on the chassis. 
 1. Finally connect the jumper cables soldered to the wheel motors to the Pibrella board. With the bot facing you, take the jumper wires from the left hand wheel motor and plug one into input **E** on the pibrella and the other next to it in the ground input. Repeat with the right hand wheel motor jumper wires, plugging one into input **F** and the other into the adjacent input on the ground bank. 
+
 	![](images/setup.jpg)
 
 ## Connect to your Raspberry Pi
