@@ -65,4 +65,45 @@ Now you are setup, you can write the code to make your bot move!
 	
 	Click on **Run** and **Run Module** or press `F5` on your keyboard to run your program. You should see the wheels on our robot turn on for 2 seconds and then turn off.
 	
+## Make your robot turn
+
+To make the wheels turn and move the robot forward you only need a simple program that turns on both motors for a period of time. But what if you want to turn right? 
+
+The simplest way to turn, is to make one motor on the left hand side turn on and keep the right motor switched off. This will turn the robot right.
+
+1. Add the following code to your python file at the bottom:
+
+	```python
+   
+    pibrella.output.f.on()
+    sleep(seconds)
+    pibrella.output.f.off()
+    ```
+1. Save the file and run your code to see if it works.	
+
+## Using the big red button to start the program
+
+Let's program the robot to turn in a square formation. You might need to get the robot into position before running the program. It makes sense to use the red button on the Pibrella board to start the movement. First put the directions into functions.
+
+1. Open your program and above the first sequence you wrote to move forward type:
+
+	```python
+	def forward(seconds):
+		pibrella.output.e.on()
+    pibrella.output.f.on()
+    time.sleep(2)
+    pibrella.output.e.off()
+    pibrella.output.f.off()
+    ```
 	
+def button_pressed():
+
+	for i in range(0,4):
+		forward(0.5)
+		left(0.9)
+def button_pressed():
+
+	for i in range(0,4):
+		forward(0.5)
+		right(0.9)
+```
