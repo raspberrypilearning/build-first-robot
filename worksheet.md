@@ -74,9 +74,8 @@ The simplest way to turn, is to make one motor on the left hand side turn on and
 1. Add the following code to your python file at the bottom:
 
 	```python
-   
     pibrella.output.f.on()
-    sleep(seconds)
+    sleep(5)
     pibrella.output.f.off()
     ```
 1. Save the file and run your code to see if it works.	
@@ -89,21 +88,41 @@ Let's program the robot to turn in a square formation. You might need to get the
 
 	```python
 	def forward(seconds):
-		pibrella.output.e.on()
-    pibrella.output.f.on()
-    time.sleep(2)
-    pibrella.output.e.off()
-    pibrella.output.f.off()
-    ```
+	```
+1. Then indent the sequence to move foward underneath like this:
 	
+	```python
+	def forward(seconds):
+		pibrella.output.e.on()
+		pibrella.output.f.on()
+		time.sleep(seconds)
+		pibrella.output.e.off()
+		pibrella.output.f.off()
+    ```
+
+	*Indentation in important in Python. The indented code here tells us that it belongs inside the function defined as `forward`. Use four spaces to indent in Python*
+
+1. Navigate to the next section of code to turn right and type:
+
+	```python
+	def right(seconds):
+	```
+1. Like before, add the sequence of code to turn right into the function you have just defined so that it is indented by four spaces like this:	
+
+	```python
+	def right(seconds):
+		pibrella.output.f.on()
+    		sleep(seconds)
+    		pibrella.output.f.off()
+	```
+	
+```python
 def button_pressed():
 
 	for i in range(0,4):
 		forward(0.5)
 		left(0.9)
-def button_pressed():
-
-	for i in range(0,4):
-		forward(0.5)
-		right(0.9)
+while True:
+	if pibrella.button.read():
+		button_pressed()
 ```
