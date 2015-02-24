@@ -18,7 +18,7 @@ Unless you have used our Robot chassis, build your chassis by following the manu
 	![](images/chassis-diagram.png)
 	
 1. Connect the wheels to their motor and gears by pushing the white rod into the centre of the wheel.
-1. Take two male to female jumper wires, and cut off the female end connectors.
+1. Take two male to male jumper wires, and cut off the connectors at one end.
 1. Ask an adult to strip and solder the exposed wires to the metal connectors underneath the motor, one on each side. 
 1. Repeat the above steps on the second wheel and motor.
 
