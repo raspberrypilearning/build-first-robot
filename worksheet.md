@@ -115,14 +115,27 @@ Let's program the robot to turn in a square formation. You might need to get the
     		sleep(seconds)
     		pibrella.output.f.off()
 	```
-	
-```python
-def button_pressed():
 
-	for i in range(0,4):
-		forward(0.5)
-		left(0.9)
-while True:
-	if pibrella.button.read():
-		button_pressed()
-```
+1. Now add a function to call the foward and right functions four times in a loop when the button is pressed like this:
+	
+	```python
+	def button_pressed():
+
+		for i in range(0,4):
+			forward(0.5)
+			right(0.9)
+	```
+	
+	*To make a square, you would need to move forward and turn right four times. Think about how you might do this in turtle to help visualise what is happening. See [Drawing snowflakes with Turtle](http://www.raspberrypi.org/learning/turtle-snowflakes/) Resource for more info*
+	
+1. Now, a loop is needed to check that the button has been pressed or not. To do this you can use a forever loop in Python called `while True:`. At the bottom of your program type:
+
+	```python
+	while True:
+		if pibrella.button.read():
+			button_pressed()
+	```
+
+1. Save your file and run your code. Disconnext the HDMI cable, keyboard and mouse from the Raspberry Pi but not the power cable! Then find a place for your robot on the floor or table.
+
+1. Press the red button! Your robot should draw a square. 
