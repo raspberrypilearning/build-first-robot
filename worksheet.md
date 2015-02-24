@@ -1,7 +1,8 @@
 # Build your First Robot
 
+Want to get started with robotics but not sure how? Start here with our guide to building a very simple Raspberry Pi bot!
 
-## Step 1: Create your Robot Chassis
+## Create your Robot Chassis
 Any roaming robot device needs a chassis to hold the motors and wheels in place and in this case to mount your Raspberry Pi onto. If you already have a chassis then you can skip this step and go onto the next one. 
 
 You may have access to a make space that has a laser cutter, or maybe your school has one which you can ask to adult to help you cut the chassis that we have used in this tutorial. 
@@ -9,7 +10,7 @@ You may have access to a make space that has a laser cutter, or maybe your schoo
 - Print this file to make a paper template
 - Use this file with a laser cutter
 
-## Step 2: Build our Robot Chassis
+## Build our Robot Chassis
 Unless you have used our Robot chassis, build your chassis by following the manufacturers instructions and move onto Step 3.
 
 1. Lay out all the parts of your robot chassis. 
@@ -31,7 +32,7 @@ Unless you have used our Robot chassis, build your chassis by following the manu
 1. Finally connect the jumper cables soldered to the wheel motors to the Pibrella board. With the bot facing you, take the jumper wires from the left hand wheel motor and plug one into input **E** on the pibrella and the other next to it in the ground input. Repeat with the right hand wheel motor jumper wires, plugging one into input **F** and the other into the adjacent input on the ground bank. 
 
 
-## Step 3: Connect to your Raspberry Pi
+## Connect to your Raspberry Pi
 Now that you have built your Raspberry Pi Robot, you will need to start up your Raspberry Pi in order to test that it works, and to write programs to make it move how you want it to.
 
 1. Connect your Raspberry Pi to a monitor, keyboard and mouse before turning it on. Log in and then load the graphical user interface by typing `startx`.
@@ -40,7 +41,7 @@ Now that you have built your Raspberry Pi Robot, you will need to start up your 
 1. Once it has loaded open a new text editor file by clciking on **File** and **New Window**.
 1. Finally click on **File** and **Save As**, then name your python file **first-robot.py**.
 
-## Step 4: Make your robot move
+## Make your robot move
 
 Now you are setup, you can write the code to make your bot move! 
 
@@ -55,6 +56,5 @@ Now you are setup, you can write the code to make your bot move!
     pibrella.output.e.off()
     pibrella.output.f.off()
  ```
- 
     	
 1. Click on **File** and **Save**    
