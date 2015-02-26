@@ -36,7 +36,8 @@ Unless you have used our Robot chassis, build your chassis by following the manu
 ## Connect to your Raspberry Pi
 Now that you have built your Raspberry Pi Robot, you will need to start up your Raspberry Pi in order to test that it works, and to write programs to make it move how you want it to.
 
-1. Connect your Raspberry Pi to a monitor, keyboard and mouse before turning it on. Log in and then load the graphical user interface by typing `startx`.
+1. Connect your Raspberry Pi to a monitor, keyboard and mouse before inserting the power cable into the micro USB port on your Pibrella. 
+1. Log in and then load the graphical user interface by typing `startx`.
 1. Open a `Terminal` window by clicking on **Main Menu**, **Accessories** followed by **Terminal**.
 1. Type `sudo idle3 &` to load the Python IDLE programming environment. 
 1. Once it has loaded open a new text editor file by clciking on **File** and **New Window**.
@@ -64,6 +65,7 @@ Now you are setup, you can write the code to make your bot move!
 	*Ensure that your robot is turned upside down on a table so that when you run your program you will see the wheels moving but it will not run off the table. Remember it is connected by cables right now that might cause a problem!*
 	
 	Click on **Run** and **Run Module** or press `F5` on your keyboard to run your program. You should see the wheels on our robot turn on for 2 seconds and then turn off.
+	Both wheels should now move forward, if one of the wheels moves backward, reverse the wires for that motor using it's corresponding output on the Pibrella.
 	
 ## Make your robot turn
 
