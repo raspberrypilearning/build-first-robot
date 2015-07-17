@@ -1,6 +1,6 @@
 # Build your First Robot
 
-Want to get started with robotics but not sure how? Start here with our guide to building a very simple Raspberry Pi bot!
+Do you want to get started with robotics, but you're not sure how? Start here with our guide to building a very simple Raspberry Pi bot!
 
 ## Create your Robot Chassis
 Any roaming robot device needs a chassis to hold the motors and wheels in place and in this case to mount your Raspberry Pi onto. If you already have a chassis then you can skip this step and go onto the next one. 
