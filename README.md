@@ -1,6 +1,6 @@
 # Build your First Robot
 
-Want to get started with robotics but not sure how? Start here with our guide to building a very simple Raspberry Pi bot!
+Do you want to get started with robotics, but you're not sure how? Start here with our guide to building a very simple Raspberry Pi bot!
 
 ## Requirements
 As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need:
