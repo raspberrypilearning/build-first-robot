@@ -1,4 +1,4 @@
-# Build your First Robot
+# Build your first robot
 
 Do you want to get started with robotics, but you're not sure how? Start here with our guide to building a very simple Raspberry Pi bot!
 
@@ -8,9 +8,9 @@ As well as a Raspberry Pi with an SD card loaded with Raspbian, you'll also need
 ### Hardware
 - [A Pibrella](http://www.pibrella.com)
 - Two wheels
-- A small caster
+- A small castor
 - Cable ties
-- Robot Chassis
+- Robot chassis
 
 ### Software
 - [Pibrella Python Library](http://pibrella.com/#setup)
