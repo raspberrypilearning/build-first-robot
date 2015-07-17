@@ -21,7 +21,7 @@ See more information on checking you have these packages installed, and how to i
 You will need to follow the steps in the worksheet below.
 
 - [worksheet](worksheet.md)
-- (Optional) Final version of Python code [RasPiBot.py](RasPiBot_1.py)
+- (Optional) Final version of Python code [RasPiBot.py](code/RasPiBot_1.py)
 
 ## Licence
 Unless otherwise specified, everything in this repository is covered by the following licence:
