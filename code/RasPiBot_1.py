@@ -1,12 +1,12 @@
 # A basic program for the Raspberry Pi Robot
 #
 # Put together by Brian Corteil for the Raspberry Pi
-# This is free software, enjoy!!!! if you improve it, please share it
+# This is free software, enjoy!!!! If you improve it, please share it
 # 
 # The robot uses the Pibrella library for Pimoroni, because it uses the Pibrella board for control and sensing 
 
 
-# import the pibrella library
+# import the Pibrella library
 
 import pibrella
 
