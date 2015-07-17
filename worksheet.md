@@ -7,8 +7,8 @@ Any roaming robot device needs a chassis to hold the motors and wheels in place 
 
 You may have access to a make space that has a laser cutter, or maybe your school has one which you can ask to adult to help you cut the chassis that we have used in this tutorial. 
 
-- Print this file to make a paper template
-- Use this file with a laser cutter
+- Print [this file](https://github.com/Corteil/RaspberryPiBot/blob/master/RasPiRobot_mk2.pdf) to make a paper template
+- Use [this file](https://github.com/Corteil/RaspberryPiBot/blob/master/RasPiRobot_mk2.svg) with a laser cutter
 
 ## Build our Robot Chassis
 Unless you have used our Robot chassis, build your chassis by following the manufacturers instructions and move onto Step 3.
