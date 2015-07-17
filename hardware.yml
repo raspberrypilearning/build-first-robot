@@ -4,13 +4,13 @@ url: http://www.pibrella.com
 - 2 x foam wheels
 img: foam-wheel
 url: http://www.amazon.co.uk/Model-Plane-Aircraft-Replacement-Pieces/dp/B00H4WNFF4/ref=sr_1_15?
-- 2 x Geared motor (12V 80RPM)
+- 2 x geared motor (12V 80RPM)
 img: motor.png
 url: http://www.amazon.co.uk/6-12V-22000RPM-Rotated-Double-Electric/dp/B00OK6CSZ0
-- 4 x male to male jumper leads
+- 4 x male-to-male jumper leads
 img: jumper-male-to-male
 url: http://shop.pimoroni.com/products/jumper-jerky
-- 1 x small caster
+- 1 x small castor
 img:
 url:
 - 4 x M2.5 metal screws
