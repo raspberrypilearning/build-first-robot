@@ -3,7 +3,7 @@
 # Put together by Brian Corteil for the Raspberry Pi
 # This is free software, enjoy!!!! if you improve it, please share it
 # 
-# The robot uses the Pibrella library for Pimoroni, because it uses the Pibrella broad for control and sensing 
+# The robot uses the Pibrella library for Pimoroni, because it uses the Pibrella board for control and sensing 
 
 
 # import the pibrella library
