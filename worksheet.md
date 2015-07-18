@@ -65,7 +65,7 @@ Now you are set up, you can write the code to make your bot move!
 1. Click on **File** and **Save** to save your code or press `Ctrl + S` on the keyboard.
 1. Now it is time to test that it works. 
 
-	*Ensure that your robot is turned upside down on a table, so that when you run your program you will see the wheels moving but it will not run off the table. Remember it is connected by cables right now that might cause a problem!*
+	Ensure that your robot is turned upside down on a table, so that when you run your program you will see the wheels moving but it will not run off the table. Remember it is connected by cables right now that might cause a problem!
 	
 	Click on **Run** and **Run Module** or press `F5` on your keyboard to run your program. You should see the wheels on our robot turn on for 2 seconds and then turn off.
 	Both wheels should now move forward; if one of the wheels moves backwards, reverse the wires for that motor using its corresponding output on the Pibrella.
@@ -105,7 +105,7 @@ Let's program the robot to turn in a square formation. You might need to get the
 		pibrella.output.f.off()
     ```
 
-	*Indentation is important in Python. The indented code here tells us that it belongs inside the function defined as `forward`. Use four spaces to indent in Python.*
+	Indentation is important in Python. The indented code here tells us that it belongs inside the function defined as `forward`. Use four spaces to indent in Python.
 
 1. Navigate to the next section of code to turn right and type:
 
@@ -131,7 +131,7 @@ Let's program the robot to turn in a square formation. You might need to get the
 			right(0.9)
 	```
 	
-	*To make a square, you would need to move forward and turn right four times. Think about how you might do this in Turtle to help visualise what is happening. See the [Drawing snowflakes with Turtle](http://www.raspberrypi.org/learning/turtle-snowflakes/) resource for more info.*
+	To make a square, you would need to move forward and turn right four times. Think about how you might do this in Turtle to help visualise what is happening. See the [Drawing snowflakes with Turtle](http://www.raspberrypi.org/learning/turtle-snowflakes/) resource for more info.
 	
 1. Now a loop is needed to check if the button has been pressed or not. To do this you can use a forever loop in Python called `while True:`. At the bottom of your program type:
 
