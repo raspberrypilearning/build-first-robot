@@ -4,9 +4,9 @@ Do you want to get started with robotics, but you're not sure how? Start here wi
 
 ## Create your robot chassis
 
-Any roaming robot device needs a chassis to hold the motors and wheels in place, and in this case to hold your Raspberry Pi. If you already have a chassis then you can skip this step and go onto the next one. 
+Any roaming robot device needs a chassis to hold the motors and wheels in place, and, in this case, to hold your Raspberry Pi. If you already have a chassis then you can skip this step and go onto the next one. 
 
-You may have access to a makespace that has a laser cutter, or maybe your school has one; you can ask an adult to help you cut the chassis that we have used in this tutorial. 
+You may have access to a makespace that has a laser cutter, or maybe your school has one; you can ask an adult to help you cut the chassis that we have used in this tutorial. If you don't have access to a laser cutter, you can make the chassis out of strong cardboard. 
 
 - Print [this file](https://github.com/Corteil/RaspberryPiBot/blob/master/RasPiRobot_mk2.pdf) to make a paper template
 - Use [this file](https://github.com/Corteil/RaspberryPiBot/blob/master/RasPiRobot_mk2.svg) with a laser cutter
