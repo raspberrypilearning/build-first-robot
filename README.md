@@ -1,5 +1,7 @@
 # Build your first robot
 
+**This is an archived resource.** The repo will remain available but the resource will no longer be maintained or updated. Some or all parts of the resource may no longer work. To see our latest resources, please visit [raspberrypi.org](http://www.raspberrypi.org). 
+
 Do you want to get started with robotics, but you're not sure how? Start here with our guide to building a very simple Raspberry Pi bot!
 
 ## Requirements
